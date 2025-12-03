@@ -658,6 +658,7 @@ label {
   background-size: cover;
   position: relative;
   z-index: -1;
+ 
 }
 .breadcrumb {
   display: inline-block;
@@ -8686,7 +8687,7 @@ header::before {
 .about-dpc-section {
   background: linear-gradient(rgb(9 41 104 / 86%)),
     url(../img/breadcrum.jpg) no-repeat center center / cover;
-  padding: 140px 0 40px;
+  padding: 40px 0;
   color: #fff;
 
   /* position: relative; */
@@ -8704,7 +8705,7 @@ header::before {
 
 /* Heading */
 .about-title {
-  font-size: 52px;
+  font-size: 36px;
   font-weight: 700;
   line-height: 1.2;
 }
