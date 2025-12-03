@@ -1321,6 +1321,10 @@
     border-right: none;
     border-bottom: 1px solid #a4a0a2;
   }
+  .box1:nth-last-child(-n + 3) {
+    border-right: none;
+    border-bottom: 1px solid #a4a0a2;
+  }
 }
 
 @media (max-width: 480px) {
