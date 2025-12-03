@@ -1043,7 +1043,7 @@ label {
   bottom: 0;
 }
 .second-atitle > span {
-  font-size: 16px;
+  font-size: 22px;
   font-weight: 500;
   text-transform: uppercase;
   color: #ff7a00;
@@ -7099,6 +7099,8 @@ a:hover {
 }
 .footer h6 {
   color: white;
+  font-size: 20px;
+  padding-bottom: 20px;
 }
 .footer ul li a {
   color: white;
@@ -7108,7 +7110,7 @@ a:hover {
 }
 .blog-area h2 {
   padding-bottom: 20px;
-  color: #092968;
+  color: #4a1002;
 }
 .brand-area {
   padding: 30px 0;
@@ -9080,7 +9082,8 @@ header::before {
   color: #ff7f00;
 }
 .fifo-eng .about-title h2 {
-  color: #ff7f03;
+  color: #4a1002;
+  font-size: 22px;
 }
 .fifo-eng ul li {
   font-size: 16px;
@@ -9102,7 +9105,10 @@ header::before {
   color: #555555;
 }
 .fifo-eng .about-content ul li i {
-  color: #ff7f00;
+  color: #fff;
+  background: #3e1109;
+  padding: 5px;
+  font-size: 10px;
 }
 .process_flow_data {
   display: grid;
@@ -9131,10 +9137,7 @@ header::before {
     url(../img/footer-bg.jpg) no-repeat center center / cover; */
   background: #130101;
 }
-.fifo-eng .fifo-eng-footer .row {
-  border-top: 1px solid #dddddd4d;
-  border-bottom: 1px solid #dddddd4d;
-}
+
 .vision_text p {
   text-align: justify;
 }
@@ -9156,4 +9159,7 @@ header::before {
 .carousel-inner > .item > a > img {
   width: 100%;
   margin: auto;
+}
+.brand-area h2 {
+  color: #5a2319;
 }
