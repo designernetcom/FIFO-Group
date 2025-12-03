@@ -658,7 +658,6 @@ label {
   background-size: cover;
   position: relative;
   z-index: -1;
- 
 }
 .breadcrumb {
   display: inline-block;
@@ -9151,5 +9150,10 @@ header::before {
     height: auto;
 } */
 .footer .footer-logo {
-    width: 150px;
-  }
+  width: 150px;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 100%;
+  margin: auto;
+}

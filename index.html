@@ -7,6 +7,17 @@
     <title>FD Group</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Slick CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    />
     <link
       rel="shortcut icon"
       type="image/x-icon"
@@ -298,7 +309,21 @@
             <div class="col-lg-6 col-md-6 col-sm-12">
               <!-- <img src="img/about-us.JPG" alt="about-us" / class="wow
               animate__animated animate__fadeInRight"> -->
-              <div
+
+              <div class="slider">
+                <div class="slide-card">
+                  <img src="img/about-us.jpg" alt="Slide 1" />
+                </div>
+
+                <div class="slide-card">
+                  <img src="img/about-us1.JPG" alt="Slide 2" />
+                </div>
+
+                <div class="slide-card">
+                  <img src="img/about2.jpg" alt="Slide 3" />
+                </div>
+              </div>
+              <!-- <div
                 id="fifoSlider"
                 class="carousel slide shadow rounded wow animate__animated animate__fadeInRight"
                 data-ride="carousel"
@@ -360,7 +385,7 @@
                   ></span>
                   <span class="sr-only">Next</span>
                 </a>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -992,6 +1017,50 @@
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/element-in-view.js"></script>
     <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script>
+      (function ($) {
+        $(document).ready(function () {
+          if (!$.fn.slick) {
+            console.error("Slick not loaded");
+            return;
+          }
+
+          $(".slider").slick({
+            dots: true,
+            arrows: true,
+            infinite: true,
+            speed: 500,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            adaptiveHeight: true,
+            variableWidth: false,
+            centerMode: false,
+            autoplay: true,
+            autoplaySpeed: 3000,
+            pauseOnHover: true,
+            pauseOnFocus: true,
+            lazyLoad: "ondemand", // images with data-lazy attribute
+            accessibility: true, // keyboard navigation
+            swipe: true,
+            touchThreshold: 10,
+            responsive: [
+              { breakpoint: 992, settings: { slidesToShow: 1 } },
+              { breakpoint: 768, settings: { slidesToShow: 1 } },
+            ],
+          });
+
+          // For slides containing videos: pause autoplay when video plays (example)
+          $(".slider")
+            .on("play", "video", function () {
+              $(".slider").slick("slickPause");
+            })
+            .on("pause", "video", function () {
+              $(".slider").slick("slickPlay");
+            });
+        });
+      })(jQuery);
+    </script>
   </body>
 
   <!-- Mirrored from htmldemo.zcubethemes.com/fabr/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 01 Sep 2025 11:55:06 GMT -->
