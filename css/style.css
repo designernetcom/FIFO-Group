@@ -7133,7 +7133,7 @@ a:hover {
 .contact-area {
   padding-bottom: 50px;
   padding-top: 40px;
-  border-top: 20px solid #092968;
+  /* border-top: 20px solid #092968; */
 }
 .copyright-text p a {
   color: #092968;
@@ -8469,7 +8469,7 @@ header::before {
   font-size: 18px;
   font-weight: 600;
   color: #0a1f4a;
-  padding: 8px 18px;
+  padding: 8px 15px;
 }
 .navbar-brand img {
   width: 75px;
@@ -8967,7 +8967,7 @@ header::before {
 
 .about-news-section .main-title span {
   color: #092968; /* red text */
-  font-size: 37px;
+  font-size: 36px;
 }
 
 .about-news-section .text-block h4 {
@@ -9149,3 +9149,6 @@ header::before {
     width: 100%;
     height: auto;
 } */
+.footer .footer-logo {
+    width: 150px;
+  }

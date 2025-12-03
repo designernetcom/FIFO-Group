@@ -748,8 +748,14 @@
     padding-bottom: 3px;
   }
   .about-title h2 {
-    font-size: 36px;
+    font-size: 30px;
     letter-spacing: -1px;
+  }
+  .about-content p {
+    text-align: left;
+  }
+  .about-title h4 {
+    font-size: 19px;
   }
   .features-content p {
     padding: 0;
@@ -759,7 +765,7 @@
     padding-right: 0;
   }
   .section-title h2 {
-    font-size: 36px;
+    font-size: 30px;
     letter-spacing: -1px;
   }
   .video-wrap img {
@@ -825,6 +831,9 @@
   }
   .f-cta-area {
     padding: 35px 20px 0;
+  }
+  .paragraph {
+    display: none;
   }
   /* .breadcrumb-area {
     padding-top: 100px;
@@ -1121,7 +1130,7 @@
   }
   .text {
     grid-template-columns: auto;
-    padding: 20px 0 0;
+    padding: 0 0 0;
     gap: 0;
   }
   .vision {
@@ -1131,15 +1140,18 @@
   .info-box h3 {
     margin-top: 15px;
   }
-
+  .about-news-section .main-title {
+    padding-top: 15px;
+  }
   .about-news-section .main-title span {
-    font-size: 25px;
+    font-size: 30px;
+    /* padding-top: 15px; */
   }
   .news-title {
     font-size: 20px;
   }
   .process-list li {
-    font-size: 13px;
+    font-size: 15px;
   }
   .fifo-eng .navbar-brand img {
     width: 100px;
@@ -1159,6 +1171,10 @@
   }
   .footer img {
     width: 110px;
+  }
+  .finishing-processes .main-title {
+    font-size: 30px;
+    padding-top: 20px;
   }
 }
 
@@ -1259,14 +1275,15 @@
     font-size: 19px;
   }
   .brand h2 {
-    font-size: 19px;
+    font-size: 30px;
   }
   .industries-section h2 {
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
   }
   .text h1 {
     font-size: 30px;
+    padding-top: 20px;
   }
   .text p {
     text-align: justify;
@@ -1279,6 +1296,15 @@
   }
   .about-dpc-section {
     padding: 90px 0 40px;
+  }
+  .footer .footer-logo {
+    width: 100px;
+  }
+  .card-title {
+    font-size: 23px;
+  }
+  .feature-box h3 {
+    font-size: 15px;
   }
 }
 @media (max-width: 1200px) {
